@@ -5,7 +5,7 @@ Split is a rack based ab testing framework designed to work with Rails, Sinatra 
 Split is heavily inspired by the Abingo and Vanity rails ab testing plugins and Resque in its use of Redis.
 
 Split is designed to be hacker friendly, allowing for maximum customisation and extensibility.
-
+t
 [![Gem Version](https://badge.fury.io/rb/split.svg)](http://badge.fury.io/rb/split)
 [![Build Status](https://secure.travis-ci.org/splitrb/split.svg?branch=master)](http://travis-ci.org/splitrb/split)
 [![Dependency Status](https://gemnasium.com/splitrb/split.svg)](https://gemnasium.com/splitrb/split)
@@ -143,7 +143,7 @@ will always have red buttons. This won't be stored in your session or count towa
 
 In the event you want to disable all tests without having to know the individual experiment names, add a `SPLIT_DISABLE` query parameter.
 
-    http://myawesomesite.com?SPLIT_DISABLE=trues
+    http://myawesomesite.com?SPLIT_DISABLE=true
 
 It is not required to send `SPLIT_DISABLE=false` to activate Split.
 
